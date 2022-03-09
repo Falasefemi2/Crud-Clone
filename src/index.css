@@ -1,0 +1,16 @@
+@import './common/styles/font/font.css';
+@import './common/styles/variable.css';
+@import './common/styles/commonClasses.css';
+@import './common/styles/animations.css';
+
+*::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+body {
+    margin: 0;
+    font-family: Gilroy, sans-serif;
+    box-sizing: border-box;
+    background-color: var(--bg-black);
+    color: var(--white);
+}
